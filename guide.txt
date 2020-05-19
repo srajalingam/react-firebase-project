@@ -26,6 +26,8 @@ Deploy only functions
 
 firebase deploy --only functions
 
+Final output:https://raja-project-plan.web.app/
+
 
 
 
