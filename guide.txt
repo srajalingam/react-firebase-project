@@ -13,6 +13,13 @@ npm install firebase
 
 npm install react-redux-firebase redux-firestore
 
+Latest version of firebase and react given error
+so downgrade
+    npm i --save react-redux-firebase@2.2.4
+    npm i --save react-redux@5.1.1
+
+npm install moment
+
 Configure firebase cloud app to server itself
 npm install -g firebase-tools
 
@@ -26,20 +33,9 @@ Deploy only functions
 
 firebase deploy --only functions
 
-Final output:https://raja-project-plan.web.app/
-
-
-
-
-
-Latest version of firebase and react given error
-so downgrade
-    npm i --save react-redux-firebase@2.2.4
-    npm i --save react-redux@5.1.1
-
-npm install moment
-
 Deploy app to firebase
 -> npm run build -> convert to dist
 -> firebase deploy
+
+Final output:https://raja-project-plan.web.app/
 
